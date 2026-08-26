@@ -278,7 +278,6 @@ Example:
 2026-08-26 16:38:02 RESTORE file=iptables_backup_20260826_163010.rules
 ```
 
-Runtime logs and firewall backups should not be committed to the repository.
 
 ---
 
@@ -297,27 +296,6 @@ firewall-manager/
 └── logs/
     └── generated at runtime
 ```
-
-Recommended `.gitignore` entries:
-
-```gitignore
-__pycache__/
-*.py[cod]
-
-backups/
-logs/
-
-.venv/
-venv/
-
-.vscode/
-.idea/
-
-*.tmp
-*.swp
-```
-
----
 
 ## Safety Considerations
 
