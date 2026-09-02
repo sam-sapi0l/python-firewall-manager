@@ -50,6 +50,19 @@ def get_chain():
 
     return chains[choice - 1]
 
+
+def list_chains():
+     chains = get_available_chains()
+
+     if not chains:
+         print("No chains available.")
+         return
+
+     print("\n===== AVAILABLE CHAINS =====")
+
+     for index, chain_name in enumerate(chains, start=1):
+         print(f"{index} - {chain_name}")
+
 def list_rules(chain=None):
     command = [
         "iptables",

@@ -19,3 +19,6 @@ logs/
 # Temporary files
 *.tmp
 *.swp
+
+
+.git
