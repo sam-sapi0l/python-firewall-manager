@@ -1,7 +1,7 @@
 import sys
 
-from firewall_manager.menu import menu_options
 from firewall_manager.commands import check_root
+from firewall_manager.menu import menu_options
 
 
 def main():

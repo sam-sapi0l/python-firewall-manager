@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+firewall_manager/__init__.py
+firewall_manager/__main__.py
+firewall_manager/audit.py
+firewall_manager/backup.py
+firewall_manager/commands.py
+firewall_manager/menu.py
+firewall_manager/rules.py
+python_firewall_manager.egg-info/PKG-INFO
+python_firewall_manager.egg-info/SOURCES.txt
+python_firewall_manager.egg-info/dependency_links.txt
+python_firewall_manager.egg-info/top_level.txt
